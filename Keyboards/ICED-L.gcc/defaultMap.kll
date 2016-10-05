@@ -1,0 +1,12 @@
+Name = Personal layout;
+Version = 0.1;
+Author = "Jonathan Pearson";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-10-02;
+
+# Intended to be used with the OS doing dvorak translation (so other keyboards
+# will work as expected).
+
+# Include lcdFuncMap. Provides LCD and layer control.

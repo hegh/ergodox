@@ -1,0 +1,101 @@
+Name = Personal Dvorak layer1;
+Version = 0.1;
+Author = "Jonathan Pearson";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-10-02;
+
+# Don't use iced_func for FKeys. It incorrectly maps F11 and F12.
+
+# Left hand
+ConnectId = 0;
+
+# Flash button on outer corner.
+S0x08 : flashMode();
+
+# F1-F5 on 1-5, F11 on the inner corner.
+S0x07 : U"F1";
+S0x06 : U"F2";
+S0x05 : U"F3";
+S0x04 : U"F4";
+S0x03 : U"F5";
+S0x02 : U"F11";
+
+# Numbers 6-0 above the home row, 1-5 on it.
+S0x10 : U"6";
+S0x0F : U"7";
+S0x0E : U"8";
+S0x0D : U"9";
+S0x0C : U"0";
+
+S0x19 : U"1";
+S0x18 : U"2";
+S0x17 : U"3";
+S0x16 : U"4";
+S0x15 : U"5";
+
+# Volume controls on ZXC, thumb Backspace => Delete, Esc => Flash.
+S0x22 : U"Mute";
+S0x21 : U"VolumeDown";
+S0x20 : U"VolumeUp";
+S0x27 : U"Delete";
+
+# Blank the keys next to the media controls.
+S0x1F : None;
+S0x1E : None;
+
+# Put some symbols on the home row: ',.;
+# Remember, intended for use with the OS remapping to Dvorak.
+S0x19 : U"Quote";
+S0x18 : U"Comma";
+S0x17 : U"Period";
+S0x16 : U"Semicolon";
+
+# Backspace becomes Delete.
+S0x26 : U"Delete";
+
+# Both Layer1 buttons together go to Layer2
+S0x23 : U"Function2";
+
+# Right hand
+ConnectId = 1;
+
+# F6-F10 on 6-0, F12 on the inner corner.
+S0x02 : U"F12";
+S0x03 : U"F6";
+S0x04 : U"F7";
+S0x05 : U"F8";
+S0x06 : U"F9";
+S0x07 : U"F10";
+
+# Navigation around the home row: GCR HTN -> Home Up End Left Down Right
+S0x0D : U"Home";
+S0x0E : U"Up";
+S0x0F : U"End";
+S0x16 : U"Left";
+S0x17 : U"Down";
+S0x18 : U"Right";
+
+# Blank the keys around the navigation to avoid typos.
+S0x0C : None;
+S0x10 : None;
+S0x15 : None;
+S0x19 : None;
+S0x1E : None;
+S0x1F : None;
+S0x20 : None;
+S0x21 : None;
+S0x22 : None;
+
+# / becomes \
+S0x11 : U"Backslash";
+
+# Arrow keys at the bottom of the right hand.
+S0x28 : U"Left";
+S0x29 : U"Down";
+S0x2A : U"Right";
+S0x20 : U"Up";
+
+# Both Layer1 buttons together go to Layer2
+S0x23 : U"Function2";

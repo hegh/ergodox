@@ -1,0 +1,50 @@
+Name = Personal Dvorak layer4;
+Version = 0.1;
+Author = "Jonathan Pearson";
+KLL = 0.3c;
+
+# Modified Date
+Date = 2016-10-02;
+
+# Dvorak layout in case plugged into a QWERTY computer.
+# Should act just like the default, but not rely on OS translation.
+
+# Top-Middle Row:
+U"Q"           : U"Quote";
+U"W"           : U"Comma";
+U"E"           : U"Period";
+U"R"           : U"P";
+U"T"           : U"Y";
+
+U"Y"           : U"F";
+U"U"           : U"G";
+U"I"           : U"C";
+U"O"           : U"R";
+U"P"           : U"L";
+
+# Middle Row:
+U"A"        : U"A";
+U"S"         : U"O";
+U"D"         : U"E";
+U"F"         : U"U";
+U"G"         : U"I";
+
+U"H"         : U"D";
+U"J"         : U"H";
+U"K"         : U"T";
+U"L"         : U"N";
+U"Semicolon" : U"S";
+U"Quote"     : U"Enter";
+
+# Bottom-Middle Row:
+U"Z"           : U"Semicolon";
+U"X"           : U"Q";
+U"C"           : U"J";
+U"V"           : U"K";
+U"B"           : U"X";
+
+U"N"           : U"B";
+U"M"          : U"M";
+U"Comma"       : U"W";
+U"Period"      : U"V";
+U"Slash"       : U"Z";

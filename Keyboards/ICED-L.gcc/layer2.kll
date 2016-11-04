@@ -6,6 +6,21 @@ KLL = 0.3c;
 # Modified Date
 Date = 2016-10-02;
 
-# TODO: Programming shortcuts and Vim shortcuts.
-# Stuff like 'for (', 'if (', :w<enter>, ...
+# Programming shortcuts and Vim shortcuts.
+# Remember, this is intended to go through OS dvorak translation.
+
+# Left hand:
+ConnectId = 0;
+
+# Upper/lower large thumb keys: <esc>:bp<enter> and <esc>:bn<enter>
+S0x27 : U"Esc", 'Znr', U"Enter";
+S0x26 : U"Esc", 'Znl', U"Enter";
+
+
+# Right hand:
+ConnectId = 1;
+
+# Upper/lower large thumb keys: <esc>:w<enter> and <esc>^w^w
+S0x27 : U"Esc", 'Z,', U"Enter";
+S0x26 : U"Esc", U"LCtrl" + U",", U",";
 

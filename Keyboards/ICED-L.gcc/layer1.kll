@@ -87,10 +87,8 @@ S0x20 : None;
 S0x21 : None;
 S0x22 : None;
 
-# Upper-right corner becomes [, with ] just below it and \ below that.
-S0x08 : U"Minus";
-S0x11 : U"Equals";
-S0x1A : U"Backslash";
+# Change / to backslash (assuming Dvorak translation).
+S0x11 : U"Backslash";
 
 # Backspace becomes Delete.
 S0x25 : U"Delete";

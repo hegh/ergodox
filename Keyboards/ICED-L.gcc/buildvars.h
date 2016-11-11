@@ -34,15 +34,15 @@
 
 
 // Strings used in the CLI module
-#define CLI_Revision            "413cf4b157d46224065c0ebaa29a8a12f21cff44"
+#define CLI_Revision            "6fe10d3c6106501b51685e89502b5bb68d93cafb"
 #define CLI_Branch              "master"
 #define CLI_ModifiedStatus      "Dirty"
-#define CLI_ModifiedFiles       "\r\n\tKeyboards/ICED-L.gcc/layer1.kll\r\n\tKeyboards/ICED-L.gcc/layer2.kll\r\n\tScan/Infinity_Ergodox/leftHand.kll\r\n\tScan/Infinity_Ergodox/rightHand.kll\r\n\tScan/MD1\r\n\tScan/MD1.1\r\n\tScan/MDErgo1"
+#define CLI_ModifiedFiles       "\r\n\tKeyboards/ICED-L.gcc/generatedKeymap.h\r\n\tKeyboards/ICED-L.gcc/kll_defs.h\r\n\tKeyboards/ICED-L.gcc/layer1.kll\r\n\tScan/Infinity_Ergodox/leftHand.kll\r\n\tScan/Infinity_Ergodox/rightHand.kll"
 #define CLI_RepoOrigin          "git://github.com/kiibohd/controller"
-#define CLI_CommitDate          "2016-10-05 12:05:58 -0400"
+#define CLI_CommitDate          "2016-11-04 18:13:53 -0400"
 #define CLI_CommitAuthor        "Jonathan Pearson <finchley@google.com>"
 #define CLI_Modules             "Scan(Infinity_Ergodox) Macro(PartialMap) Output(pjrcUSB) Debug(full)"
-#define CLI_BuildDate           "2016-10-17 11:34:57 -0400"
+#define CLI_BuildDate           "2016-11-10 11:56:29 -0500"
 #define CLI_BuildOS             "Linux-3.13.0-88-generic"
 #define CLI_Arch                "arm"
 #define CLI_Chip                "mk20dx256vlh7"
@@ -56,5 +56,5 @@
 // match the INF file.
 #define VENDOR_ID               0x1C11
 #define PRODUCT_ID              0xB04D
-#define BCD_VERSION             477
+#define BCD_VERSION             478
 

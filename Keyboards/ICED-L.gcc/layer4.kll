@@ -9,42 +9,111 @@ Date = 2016-10-02;
 # Dvorak layout in case plugged into a QWERTY computer.
 # Should act just like the default, but not rely on OS translation.
 
-# Top-Middle Row:
-U"Q"           : U"Quote";
-U"W"           : U"Comma";
-U"E"           : U"Period";
-U"R"           : U"P";
-U"T"           : U"Y";
+# Left hand:
 
-U"Y"           : U"F";
-U"U"           : U"G";
-U"I"           : U"C";
-U"O"           : U"R";
-U"P"           : U"L";
+# Top Row
+S0x02 : U"6";
+S0x03 : U"5";
+S0x04 : U"4";
+S0x05 : U"3";
+S0x06 : U"2";
+S0x07 : U"1";
+S0x08 : U"Backtick";
 
-# Middle Row:
-U"A"        : U"A";
-U"S"         : U"O";
-U"D"         : U"E";
-U"F"         : U"U";
-U"G"         : U"I";
+# Top-Middle Row
+S0x0B : U"F3";
+S0x0C : U"Y";
+S0x0D : U"P";
+S0x0E : U"Period";
+S0x0F : U"Comma";
+S0x10 : U"Quote";
+S0x11 : U"Tab";
 
-U"H"         : U"D";
-U"J"         : U"H";
-U"K"         : U"T";
-U"L"         : U"N";
-U"Semicolon" : U"S";
-U"Quote"     : U"Enter";
+# Middle Row
+S0x15 : U"I";
+S0x16 : U"U";
+S0x17 : U"E";
+S0x18 : U"O";
+S0x19 : U"A";
+S0x1A : U"LCtrl";
 
-# Bottom-Middle Row:
-U"Z"           : U"Semicolon";
-U"X"           : U"Q";
-U"C"           : U"J";
-U"V"           : U"K";
-U"B"           : U"X";
+# Top Thumb Cluster
+S0x1B : U"Home";
+S0x1C : U"CapsLock";
 
-U"N"           : U"B";
-U"M"          : U"M";
-U"Comma"       : U"W";
-U"Period"      : U"V";
-U"Slash"       : U"Z";
+# Bottom-Middle Row
+S0x1D : U"Left Bracket";
+S0x1E : U"X";
+S0x1F : U"K";
+S0x20 : U"J";
+S0x21 : U"Q";
+S0x22 : U"Semicolon";
+S0x23 : U"Function1";
+
+# Bottom Thumb Cluster
+S0x24 : U"End";
+S0x25 : U"LAlt";
+S0x26 : U"Function1";
+S0x27 : U"LShift";
+
+# Bottom Row
+S0x28 : U"Esc";
+S0x29 : U"LGui";
+S0x2A : U"SysReq";
+S0x2B : U"Pause";
+S0x2C : U"Prev Layer";
+
+# Right hand
+ConnectId = 1;
+
+# Top Row
+S0x02 : U"Lock3";
+S0x03 : U"6";
+S0x04 : U"7";
+S0x05 : U"8";
+S0x06 : U"9";
+S0x07 : U"0";
+S0x08 : U"Equals";
+
+# Top-Middle Row
+S0x0B : U"F4";
+S0x0C : U"F";
+S0x0D : U"G";
+S0x0E : U"C";
+S0x0F : U"R";
+S0x10 : U"L";
+S0x11 : U"Slash";
+
+# Middle Row
+S0x15 : U"D";
+S0x16 : U"H";
+S0x17 : U"T";
+S0x18 : U"N";
+S0x19 : U"S";
+S0x1A : U"Minus";
+
+# Top Thumb Cluster
+S0x1B : U"PageUp";
+S0x1C : U"RCtrl";
+
+# Bottom-Middle Row
+S0x1D : U"Right Bracket";
+S0x1E : U"B";
+S0x1F : U"M";
+S0x20 : U"W";
+S0x21 : U"V";
+S0x22 : U"Z";
+S0x23 : U"Function1";
+
+# Bottom Thumb Cluster
+S0x24 : U"PageDown";
+S0x25 : U"Backspace";
+S0x26 : U"Enter";
+S0x27 : U"Space";
+
+# Bottom Row
+S0x28 : U"RShift";
+S0x29 : U"RShift" + U"RGui";
+S0x2A : U"RCtrl" + U"LAlt";
+S0x2B : U"Menu";
+S0x2C : U"Next Layer";

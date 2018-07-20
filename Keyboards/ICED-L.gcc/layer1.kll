@@ -66,28 +66,29 @@ S0x06 : U"F9";
 S0x07 : U"F10";
 
 # Navigation around the home row: GCR HTN -> Home Up End Left Down Right
+S0x0C : None;
 S0x0D : U"Home";
 S0x0E : U"Up";
 S0x0F : U"End";
+S0x10 : None;
+
+S0x15 : None;
 S0x16 : U"Left";
 S0x17 : U"Down";
 S0x18 : U"Right";
+S0x19 : None;
 
 # Put another End key on the lower inner corner, just above the thumb cluster.
 S0x28 : U"End";
 
 # Blank the keys around the navigation to avoid typos.
-S0x0C : None;
-S0x10 : None;
-S0x15 : None;
-S0x19 : None;
 S0x1E : None;
 S0x1F : None;
 S0x20 : None;
 S0x21 : None;
 S0x22 : None;
 
-# Change / to backslash (assuming Dvorak translation).
+# Change / to backslash (same position on QWERTY/Dvorak)
 S0x11 : U"Backslash";
 
 # Backspace becomes Delete.

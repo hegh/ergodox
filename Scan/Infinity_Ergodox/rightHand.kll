@@ -76,4 +76,3 @@ S0x29 : U"RShift" + U"RGui";
 S0x2A : U"RCtrl" + U"LAlt";
 S0x2B : U"Menu";
 S0x2C : U"Next Layer";
-
